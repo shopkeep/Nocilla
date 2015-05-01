@@ -149,7 +149,7 @@ describe(@"#startLoading", ^{
                 NSString *expectedMessage = @"An unexpected HTTP request was fired.\n\nUse this snippet to stub the request:\nstubRequest(@\"GET\", @\"http://api.example.com/dogs.xml\");\n";
                 [[theBlock(^{
                     [protocol startLoading];
-                }) should] raiseWithName:@"NocillaUnexpectedRequest" reason:expectedMessage];
+                }) shouldEventually] raiseWithName:@"NocillaUnexpectedRequest" reason:expectedMessage];
             });
         });
     });
