@@ -50,6 +50,17 @@ DEPENDENCIES:
   - Kiwi (~> 2.3.0)
   - MKNetworkKit (~> 0.87)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - ASIHTTPRequest
+    - CocoaAsyncSocket
+    - CocoaHTTPServer
+    - CocoaLumberjack
+    - Kiwi
+    - MKNetworkKit
+    - Reachability
+
 SPEC CHECKSUMS:
   AFNetworking: 41d45d2c14219af0fa5addf3cfd433a002c13c9f
   ASIHTTPRequest: bf4f9b8be3526d40865d045bb664e0bab246fb81
@@ -62,4 +73,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 6845bdf1d8a193a8186fdae487e0615d7037f7ba
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.5.0
